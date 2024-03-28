@@ -2,7 +2,7 @@ document.write("<h2>Triangle</h2>");
 
 for (let i = 1; i < 8; i++) {
     for (let j = 1; j <= i; j++) {
-        document.write(j + ' ')
+        document.write('* ')
     }
     document.write("<br>")
 }
@@ -12,7 +12,7 @@ document.write("<h2>Inverted Triangle</h2>");
 
 for (let i = 8; i > 0; i--) {
     for (let j = 1; j < i; j++) {
-        document.write(j + ' ')
+        document.write('* ')
     }
     document.write("<br>")
 }
@@ -26,7 +26,7 @@ for (let i = 1; i <= row; i++) {
         document.write('&nbsp;')
     }
     for (let k = 1; k <= i; k++) {
-        document.write(' ', k)
+        document.write('* ')
     }
     document.write("<br>")
 }
@@ -40,7 +40,7 @@ for (let i = row; i >= 1; i--) {
         document.write('&nbsp;')
     }
     for (let k = i; k >= 1; k--) {
-        document.write('&nbsp;' + k)
+        document.write('&nbsp;*')
     }
     document.write("<br>")
 }
@@ -54,7 +54,7 @@ for (let i = 1; i <= row; i++) {
         document.write('&nbsp; &nbsp;')
     }
     for (let k = 1; k <= i; k++) {
-        document.write('&nbsp;' + k)
+        document.write('&nbsp;*')
     }
     document.write("<br>")
 }
@@ -67,7 +67,7 @@ for (let i = row; i >= 1; i--) {
         document.write('&nbsp; &nbsp;')
     }
     for (let k = i; k >= 1; k--) {
-        document.write('&nbsp;' + k)
+        document.write('&nbsp;*')
     }
     document.write("<br>")
 }
@@ -81,13 +81,13 @@ var row = 7;
 
 for (let i = 1; i <= row; i++) {
     for (let j = 1; j <= i; j++) {
-        document.write(j + ' ')
+        document.write('* ')
     }
     document.write("<br>")
 }
 for (let i = row - 1; i >= 0; i--) {
     for (let j = 1; j <= i; j++) {
-        document.write(j + ' ')
+        document.write('* ')
     }
     document.write("<br>")
 }
@@ -101,7 +101,7 @@ for (let i = 1; i <= row; i++) {
         document.write('&nbsp; &nbsp;')
     }
     for (let k = 1; k <= i; k++) {
-        document.write('&nbsp;' + k)
+        document.write('&nbsp;*')
     }
     document.write("<br>")
 }
@@ -110,7 +110,7 @@ for (let i = row - 1; i >= 1; i--) {
         document.write('&nbsp; &nbsp;')
     }
     for (let k = i; k >= 1; k--) {
-        document.write('&nbsp;' + k)
+        document.write('&nbsp;*')
     }
     document.write("<br>")
 }
@@ -125,7 +125,7 @@ for (let i = 1; i < row; i++) {
         document.write('&nbsp;')
     }
     for (let k = 1; k <= i; k++) {
-        document.write(' ', k)
+        document.write(' *')
     }
     document.write("<br>")
 }
@@ -135,7 +135,7 @@ for (let i = row; i >= 1; i--) {
         document.write('&nbsp;')
     }
     for (let k = i; k >= 1; k--) {
-        document.write('&nbsp;' + k)
+        document.write('&nbsp;*')
     }
     document.write("<br>")
 }
